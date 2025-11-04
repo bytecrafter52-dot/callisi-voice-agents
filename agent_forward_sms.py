@@ -17,7 +17,6 @@ from typing import Optional, List, Dict, Any
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
-from dotenv import load_dotenv
 import httpx
 import asyncio
 import base64  # ggf. für spätere REST-Fallbacks
@@ -36,9 +35,6 @@ except Exception:
 
 # SIP Outdial via SDK
 from livekit.api import LiveKitAPI
-
-# ---- ENV laden ----
-load_dotenv(".env")
 
 # ---- Logging ----
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()

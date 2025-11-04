@@ -1,9 +1,6 @@
 # Python Dependencies for Voice Agent
 # Railway will automatically install these
 
-# Core
-python-dotenv==1.0.0
-
 # LiveKit
 livekit==0.17.4
 livekit-agents==0.9.4
