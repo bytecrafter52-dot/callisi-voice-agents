@@ -24,5 +24,5 @@ COPY . .
 # Expose port (optional, for health checks)
 EXPOSE 8080
 
-# Run the agent
-CMD ["python", "agent_basic.py"]
+# Run the agent with start command
+CMD ["python", "agent_basic.py", "start"]
