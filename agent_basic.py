@@ -341,10 +341,10 @@ class TelephonyAssistant(Agent):
     # ---- Lifecycle ----
 
     async def on_enter(self):
-        """Begrüßung auf Deutsch, kurz & freundlich – IMMER als „Clara“."""
+        """Begrüßung auf Deutsch, kurz & freundlich – IMMER als „Clara".""" 
         greeting = (
-            "Guten Tag! Sie sprechen mit Clara, Ihrer virtuellen Assistentin. "
-            "Wie kann ich Ihnen helfen?"
+            "Guten Tag und herzlich willkommen beim Aparts in Oberhausen. "
+            "Sie sprechen mit Clara, Ihrer virtuellen Assistentin. Wie kann ich Ihnen helfen?"
         )
         try:
             await self.session.generate_reply(instructions=greeting)
