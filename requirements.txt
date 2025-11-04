@@ -1,0 +1,27 @@
+# Python Dependencies for Voice Agent
+# Railway will automatically install these
+
+# Core
+python-dotenv==1.0.0
+
+# LiveKit
+livekit==0.17.4
+livekit-agents==0.9.4
+
+# AI/ML
+openai==1.54.4
+
+# Speech Services
+deepgram-sdk==3.8.3
+azure-cognitiveservices-speech==1.40.0
+
+# Knowledge Base
+pinecone-client==5.0.1
+
+# Phone System
+twilio==9.3.7
+
+# Additional Dependencies
+aiohttp==3.10.10
+pydantic==2.9.2
+numpy==2.1.3
